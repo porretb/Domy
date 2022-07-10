@@ -4,7 +4,7 @@
         ];
     // Tableau associatif
     $recettes = [[
-        'titre' => 'Pain',
+        'titre' => 'Petit Pain',
         'recette' => '100 gr de beurre etcc',
         'auteur' => 'Blaise',
         'actif' => true,
