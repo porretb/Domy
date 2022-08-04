@@ -9,11 +9,10 @@
     <body>
 
         <header>
-            <h1>Domy</h1>
             <?php 
-                include('header.php'); 
-                include('variables.php'); 
-                include('fonction.php'); 
+                include_once('header.php'); 
+                include_once('variables.php'); 
+                include_once('fonction.php'); 
             ?>
         </header>
 
