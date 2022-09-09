@@ -1,3 +1,1 @@
-<footer>
-    <p>Copyright Blaise Porret, tous droits réservés</p>
-</footer>
+    <p>&copy; 2022 Domy.ch- <a href="https://linktr.ee/porretb" target="_blank">Blaise Porret</a>, tous droits réservés</p>

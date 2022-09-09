@@ -7,9 +7,9 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
-li a, a:hover
+a, a:hover
 {
     text-decoration: none;
     color: #000;
@@ -34,11 +34,28 @@ header nav
     float: right;
     margin-top: 50px;
 }
+
 header
 {
     height: 120px;
+    margin:0 1rem;
+    border: 0.1em solid black;
+}
+/* Menu */
+.element_menu ul li
+{
+    margin-left: 10px;
+}
+.element_menu ul li a:hover
+{
+    text-decoration: underline;
 }
 /* Section recette */
+#recette
+{
+    margin:0.2rem 1rem;
+    border: 0.1em solid gold;
+}
 section article h3
 {
     font-size: 25px;
@@ -46,3 +63,17 @@ section article h3
     text-transform: uppercase;
 }
 /* Footer */
+footer
+{
+    margin:0 1rem;
+    text-align: center;
+    border: 0.1em solid greenyellow;
+}
+
+/* Contact */
+
+label
+{
+    display: block;
+    font-weight: bold;
+}

@@ -19,19 +19,23 @@
         <h1>
             Contactez nous
         </h1>
-        <form>
+        <form method="post" action="submit_form.php" enctype="multipart/form-data">
             <label for="email">
                 Email
             </label>
-            <input type="email" id="email" name="email" placeholder="johndoe@yahoo.fr" aria-describedby="email-help">
+            <input type="email" id="email" name="email" placeholder="johndoe@yahoo.fr" arian-describedby="email-help">
             <div id="email-help">
                 Nous ne revendrons pas votre email
             </div>
             <label for="message">
                 Votre message
             </label>
-            <textarea placeholder="Exprimez vous ici" id="message" name="textarea">
+            <textarea placeholder="Exprimez vous ici" id="message" name="message">
             </textarea>
+            <label for="screenshot">
+                Votre capture d'ecran
+            </label>
+            <input type="file" id="screenshot" name="screenshot">
             <button type="submit">
                 Envoyer
             </button>
