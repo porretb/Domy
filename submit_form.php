@@ -46,13 +46,17 @@ if (isset($_FILES['screenshot']) && $_FILES['screenshot']['error'] == 0)
             <?php
                 include('header.php');
             ?>
-        </header>    
+        </header>
+        <section id="main">    
             <h1>Message bien reçu !</h1>
             <h5 class="card-title">Rappel de vos informations</h5>
             <p class="card-text"><b>Email</b> : <?php echo($email); ?></p>
             <p class="card-text"><b>Message</b> : <?php echo strip_tags($message); ?></p>
+        </section>
+        <footer>
             <?php
                 include('footer.php');
-            ?>    
+            ?>  
+        </footer>  
     </body>
 </html>

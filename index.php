@@ -16,11 +16,11 @@
             ?>
         </header>
 
-        <section id="recette">
+        <section id="main">
             <?php foreach(getRecette($recipes) as $recipe) : ?>
                 <article>
                     <h3>
-                        <?php echo $recipe['titre_recette']; ?>
+                        <?php echo $recipe['titre']; ?>
                     </h3>
                     <div>
                         <?php echo $recipe['ingredients']?>
